@@ -1,4 +1,4 @@
-public class Ai95Calculator {
+public class Petrol2Calculator {
     double cena = 46.35;
     double tax = 0.14;
     double fullPrice = cena * (1 + tax);
