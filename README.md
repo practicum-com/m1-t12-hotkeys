@@ -1,3 +1,3 @@
-# Горячие клавиши для эффективной работы с кодом
+# Hotkeys to Efficiently Work With Code
 
-Больше всего времени в работе программиста уходит на написание кода. Intellij IDEA позволяет ускорить этот процесс. Чтобы писать код ещё быстрее, разработчики оптимизируют свои действия с помощью горячих клавиш (англ. «hot keys»). В среде разработки Intellij IDEA есть сотни таких сочетаний. В этом уроке мы расскажем о самых полезных из них.
+A programmer spends most of their time writing code. Intellij IDEA allows you to speed up this process. To write code even faster, developers optimize their actions with hotkeys (from English "hot keys"). There are hundreds of such combinations in the Intellij IDEA development environment. In this lesson we will tell you about the most useful ones.
