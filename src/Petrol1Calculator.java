@@ -3,7 +3,7 @@ public class Petrol1Calculator {
     double tax = 0.13;
     double fullPrice = prc * (1 + tax);
 
-    public double calculate(double liters) {
-        return liters * fullPrice;
+    public double calculate(double volume) {
+        return volume * fullPrice;
     }
 }
