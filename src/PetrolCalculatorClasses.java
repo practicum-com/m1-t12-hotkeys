@@ -9,13 +9,13 @@ public class PetrolCalculatorClasses {
             System.out.print("Enter fuel type: 1 - 92 octane gas, 2 - 95 octane gas => ");
             int petrolType = scanner.nextInt();
             System.out.print("Enter the number of liters => ");
-            double razmer = scanner.nextDouble();
+            double liters = scanner.nextDouble();
             if (petrolType == 1) {
-                double price = new Ai92Calculator().calculate(razmer);
-                System.out.println("The price of " + razmer + " liters of the 92 octane gas is $" + price + );
+                double price = new Petrol1Calculator().calculate(liters);
+                System.out.println("The price of " + liters + " liters of the 92 octane gas is $" + price + );
             } else if (petrolType == 2) {
-                double price = new Ai95Calculator().calculate(razmer);
-                System.out.println("The price of " + razmer + " liters of the 95 octane gas is $" + price + );
+                double price = new Petrol2Calculator().calculate(liters);
+                System.out.println("The price of " + liters + " liters of the 95 octane gas is $" + price + );
             }
         }
     }
